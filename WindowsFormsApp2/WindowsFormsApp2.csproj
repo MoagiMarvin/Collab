@@ -66,6 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sedi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sedi.Designer.cs">
+      <DependentUpon>Sedi.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DINEO.resx">
       <DependentUpon>DINEO.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +90,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Sedi.resx">
+      <DependentUpon>Sedi.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
